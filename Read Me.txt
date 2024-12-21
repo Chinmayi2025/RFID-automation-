@@ -1,0 +1,50 @@
+Components Required
+Arduino Uno or Nano
+RFID Reader (MFRC522)
+Relay Module
+Hair Dryer
+LCD Display (16x2)
+Buzzer
+Push Buttons (for adding/removing users)
+SD Card Module (for logging)
+Jumper Wires
+Breadboard (optional)
+Wiring Connections
+RFID Reader (MFRC522)
+
+SDA (SS) -> Pin 10
+SCK -> Pin 13
+MOSI -> Pin 11
+MISO -> Pin 12
+RST -> Pin 9
+VCC -> 3.3V
+GND -> GND
+Relay Module
+
+IN1 -> Pin 4
+VCC -> 5V
+GND -> GND
+LCD Display
+
+RS -> Pin 7
+E -> Pin 8
+D4 -> Pin 5
+D5 -> Pin 6
+VCC -> 5V
+GND -> GND
+Buzzer
+
+Positive -> Pin 3
+Negative -> GND
+Push Buttons
+
+Button for adding user -> Pin 2
+Button for removing user -> Pin A0
+SD Card Module
+
+CS -> Pin 4 (change if needed)
+MOSI -> Pin 11
+MISO -> Pin 12
+SCK -> Pin 13
+VCC -> 5V
+GND -> GND
